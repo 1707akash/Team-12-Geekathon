@@ -3,12 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Generator</title>
+    <title>Resume Builder Demo</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js"></script>
 </head>
 <body>
-    <h1>Resume Builder</h1>
+    <nav>
+        <img src="./resume logo.png" alt="resume-logo" class="logo-img">
+        <button class="dwnldBtn">
+            <span class="material-symbols-outlined">Download</span>
+            <p >Download PDF</p>
+        </button>
+    </nav>
+
+    <main>
+        <aside class="leftSide">
+            <h2>Template Type</h2>
+            <select name="templateType" id="templateType">
+                <option value="basic">Basic</option>
+                <option value="professional">Professional</option>
+            </select>
+            <h2>Header Color</h2>
+            <input class="colorInput" type="color" name="" id="colorHeader" value="#2eb774">
+            <h2>Header-Text Color</h2>
+            <input class="colorInput" type="color" name="" id="textColorHeader" value="#f9f9f9">
+
+            <h2>Personal Details</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="number" id="contactNo" placeholder="Phone Number">
+            <input type="text" id="place" placeholder="City, Country">
+
+            <h2>Professional Details</h2>
+            <input type="text" placeholder="Wanted Job Title" class="jobTitle">
+            <textarea name="summary" id="" cols="50" rows="5" class="summary" placeholder="Professional Summary"></textarea>
+            <input type="text" name="" id="skills" placeholder="Skills">
+
+            <button id="employment" class="addOptions">Add Employment</button>
+            <div  class="employdetails ">
+                <div class="addNewEmployment addingDivs"></div>
+                <button id="newappendemploy" class="appendBtn">ADD</button>
+                
+            </div>
     
+            <button id="project" class="addOptions">Add Project</button>
+            <div class="projectdetails">
+                <div class="addNewProjects addingDivs"></div>
+               <button id="newappend" class="appendBtn">ADD</button>
+            </div>
+    
+    
+            <h3>Educational Background</h3>
+            <button id="education" class="addOptions">Add Education</button>
+            <div class="educationaldetails">
+                <div class="addNewEducation addingDivs"></div>
+                <button id="newappendeducat" class="appendBtn">ADD</button>
+            </div>
+        </aside>
+
+
+        <!-- basic resume format section -->
+        <section class="templates">
+            <article class="basicTemp">
+                <div class="topDiv1 basic">
+                    <div class="basic_header">
+                        <div class="basic namePost1">
+                            <h1 class="basic name1"></h1>
+                            <p class="basic post1"></p>
+                        </div>
+                        <div class="contactDetails">
+                            <p class="contactPoints"><span class="basic call1"></span>
+                                <span class="material-symbols-outlined">Call</span></p>
+                            <p class="contactPoints"><span class="basic mailId1"></span>
+                                <span class="material-symbols-outlined">Mail</span></p>
+                            <p class="contactPoints"><span class="basic location1"></span>
+                                <span class="material-symbols-outlined">Location_On</span></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="resumeDetails">
+                    <h2>SUMMARY</h2>
+                    <hr>
+                    <p class="basic summ1"></p>
+                    <br>
+                    <h2>SKILLS</h2>
+                    <hr>
+                    <p class="basic skills1"></p>
+                    <br>
+                    <h2>PROFESSIONAL EXPERIENCE</h2>
+                    <hr>
+                    <p class="basic exp1"></p>
+                    <br>
+                    <h2>PROJECTS</h2>
+                    <hr>
+                    <p class="basic projects1"></p>
+                    <br>
+                    <h2>EDUCATION</h2>
+                    <hr>
+                    <p class="basic edu1"></p>
+                </div>
+
+            </article>
+
+
+
+            <!-- Professional template here -->
+
+            <article class="proTemplate">
+                <div class="topDiv2 pro">
+                    <div class="pro namePost">
+                        <h1 class="pro name2"></h1>
+                        <p class="pro post2"></p>
+                    </div>
+                </div>
+                <div class="resumeBody">
+                    <div class="leftPro">
+                        <h2>SKILLS</h2>
+                        <hr>
+                        <p class="pro skills2"></p>
+                        <h2>CONTACTS</h2>
+                        <hr>
+                        <div class="contactDetails pro">
+                            <p class="contactsPro">
+                                <span class="pro call2"></span>
+                                <span class="material-symbols-outlined">Call</span></p>
+                            <p class="contactsPro"><span class="pro mailId2"></span>
+                                <span class="material-symbols-outlined">Mail</span></p>
+                            <p class="contactsPro"><span class="pro location2"></span>
+                                <span class="material-symbols-outlined">Location_On</span></p>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="rightSide">
+                        <div class="resumeDetails2">
+                            <h2>SUMMARY</h2>
+                            <hr>
+                            <p class="pro summ2"></p>
+                            <br>
+                            <h2>PROFESSIONAL EXPERIENCE</h2>
+                            <hr>
+                            <p class="pro exp2"></p>
+                            <br>
+                            <h2>PROJECTS</h2>
+                            <hr>
+                            <p class="pro projects2"></p>
+                            <br>
+                            <h2>EDUCATION</h2>
+                            <hr>
+                            <p class="pro edu2"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+        
+    </main>
+
 
 
     <script src="./script.js"></script>
