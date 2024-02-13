@@ -27,9 +27,15 @@
       </h1>
     </header>
     <main class="min-h-[5rem]">
-      <ul class="text-zinc-50 text-[1rem]">
-        <li>No Bookmarks to Show!</li>
-      </ul>      
+      <ul id="ulInfoMsg" class="text-zinc-50 text-[1rem]">
+        <li class="flex gap-[.5rem] text-[#ffd43b] font-semibold text-[1.2rem] items-center justify-center p-[1rem]">
+          <i class="fa-sharp fa-solid fa-circle-info text-[3rem]"></i>
+          <span id="spanInsideInfoMsg">No Bookmarks to Show!</span>
+        </li>
+      </ul>   
+      <ul id="ulBookmarks" class="text-[#ffd43b] text-[1rem]  flex flex-col gap-[.5rem] ">
+        <!-- Will be handled by View -->
+      </ul>   
     </main>
 
     
@@ -43,10 +49,13 @@
 
       <table class="flex flex-col text-[1rem] text-zinc-50 ">
         <tr class="flex gap-[1rem] items-center">
+          <td class="text-[1rem]" style="font-variant:small-caps">Mentor:</td>
+          <td>Trisha Das</td>
+        </tr>        
+        <tr class="flex gap-[1rem] items-center">
           <td class="text-[1rem]" style="font-variant:small-caps">Developer:</td>
           <td>Abhishek Kumar</td>
         </tr>
-
         <tr class="flex gap-[1rem]">
           <td class="text-[1rem]" style="font-variant:small-caps">Batch:</td>
           <td>FS-14 (MERN Stack)</td>
@@ -68,7 +77,8 @@
       </table>
     </footer>
     
-    <!-- <script  src="MVC/Controller.js"></script> -->
+    <script type="module"  src="/MVC/View.js"></script>
+
     
     <!-- <script type="module" src="MVC/Controller.js"></script> -->
     
