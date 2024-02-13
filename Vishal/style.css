@@ -1,0 +1,98 @@
+body{
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images\ \(1\).jpeg);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header{
+    background-color: paleturquoise;
+    box-shadow: 10px 10px palegreen;
+    height: 50px;
+    margin: 20px 30px 30px 30px;
+    font-size: 20px;
+    width: auto;
+    
+}
+
+@media only screen and (max-width: 770px) {
+  header {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  header {
+    font-size: 35px;
+  }
+}
+
+header h1{
+    color: rgb(248, 6, 26);
+    height: 150px;
+    margin: 0;
+}
+
+.grid {
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    font-size: larger;
+}
+
+.grid div{
+    height: 56px;
+    width: 56px;
+    border: 2px solid black;
+    box-shadow: inset 3px 3px white;
+    font-size: xx-large;
+}
+
+.checked{
+    background-color: palegreen;
+}
+
+.exploded {
+    background-color: orange;
+}
+
+.button{
+    width: 100px;
+    margin: auto;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #07f112; /* Darker Green on Hover */
+}
+
+.details{
+  height: 120px; 
+  width: 400px;
+  color: rgb(238, 5, 13);
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
