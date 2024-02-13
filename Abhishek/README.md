@@ -4,14 +4,15 @@
 ## 1. Credits
 1. [Geekster](https://www.geekster.in/)
 2. [Trisha Das](https://www.linkedin.com/in/trisha-das1308/) Mam (Mentor)
-3. [Sudhendra Singh](https://www.linkedin.com/in/sudhendra-singh-168831130/) Sir (Educator)
-4. [Akhil Sharma](https://www.linkedin.com/in/akhil-sh06/) Sir (Educator)
-5. [Ankit Singh](https://www.linkedin.com/in/asingh88029/) Sir (Educator Assistant)
-6. [Aanchal Parnami](https://www.geekster.in/) Mam, (Success Manager)
-7. [Priyanshu Choudhary](https://www.linkedin.com/in/priyanshuchoudhary/) Sir, (For providing assignments and projects)
-8. [Saquib Khan](https://www.geekster.in/) Sir, (For checking Projects & Assignments and providing feedback)
-9. [Manan Bansal](https://www.geekster.in/) Sir, (For checking Projects & Assignments and providing feedback)
-10. [MySelf Abhishek Kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch) || Team-12
+3. [Akash Shukla](https://www.linkedin.com/in/akash-shukla-937a23162/) Sir (Captain Team-12 || Geekathon Module #4 Geekster)
+4. [Sudhendra Singh](https://www.linkedin.com/in/sudhendra-singh-168831130/) Sir (Educator)
+5. [Akhil Sharma](https://www.linkedin.com/in/akhil-sh06/) Sir (Educator)
+6. [Ankit Singh](https://www.linkedin.com/in/asingh88029/) Sir (Educator Assistant)
+7. [Aanchal Parnami](https://www.geekster.in/) Mam, (Success Manager)
+8. [Priyanshu Choudhary](https://www.linkedin.com/in/priyanshuchoudhary/) Sir, (For providing assignments and projects)
+9. [Saquib Khan](https://www.geekster.in/) Sir, (For checking Projects & Assignments and providing feedback)
+10. [Manan Bansal](https://www.geekster.in/) Sir, (For checking Projects & Assignments and providing feedback)
+11. [MySelf Abhishek Kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch) || Team-12
 
 ## 2. Objectives:
 + Developing a chrome extension.
