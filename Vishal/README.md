@@ -2,6 +2,8 @@
 
 Welcome to the Minesweeper game! This classic puzzle game challenges your logic and deduction skills as you attempt to uncover hidden mines on a grid without triggering any of them.
 
+<h2>Play the game:</h2> https://1707akash.github.io/Team-12-Geekathon/Vishal/
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [How to Play](#how-to-play)
