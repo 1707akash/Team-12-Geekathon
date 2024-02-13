@@ -18,6 +18,11 @@ In the modern job market, having a well-crafted resume is crucial. Resume Builde
 ## Screenshots
 
 Include screenshots or links to screenshots of different pages or sections of your application.
+![ss1](https://github.com/1707akash/Team-12-Geekathon/assets/117883959/945e3783-675f-491f-89cc-c87da4f36fb9) <br>
+![ss2](https://github.com/1707akash/Team-12-Geekathon/assets/117883959/ea494c2d-88f4-462b-bda0-804325028ece) <br>
+![ss3](https://github.com/1707akash/Team-12-Geekathon/assets/117883959/eb4d895d-5b03-44ee-9954-708dfe1872ab) <br>
+
+
 
 
 ## Features
