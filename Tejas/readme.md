@@ -29,8 +29,7 @@ On the fourth page, I have added a contact page.
 
 On the last page of the webpage, I have included information about the age of our project. Additionally, I have added a link to my GitHub profile.
 
-![Screenshot 2024-02-13 122615](https://github.com/1707akash/Team-12-
-Geekathon/assets/149192422/7cda6980-a9e2-4fba-9926-152b9721d31b)
+![Screenshot 2024-02-13 122615](https://github.com/1707akash/Team-12-Geekathon/assets/149192422/7cda6980-a9e2-4fba-9926-152b9721d31b)
 
 This page serves as the payment integration section on my website. I have incorporated the RazorPay app for facilitating donations.
 
