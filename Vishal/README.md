@@ -35,6 +35,8 @@ Minesweeper is a single-player puzzle game where the objective is to clear a rec
 5. **Winning the Game:**
    - Uncover all safe cells to win the game.
 
+Play the Game: https://1707akash.github.io/Team-12-Geekathon/Vishal/
+
 ## Features
 
 - Customizable grid size and mine count.
