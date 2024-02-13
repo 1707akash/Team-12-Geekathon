@@ -1,5 +1,6 @@
 # Youtube Videos Bookmarker || Google Chrome Extension || Geekster Module #4 Geekathon Project
-![](Screenshots/posterImage.png)
+[![Intro Video](Screenshots/posterImage.png)](introVideo.mp4)
+
 
 ## 1. Credits
 1. [Geekster](https://www.geekster.in/)
